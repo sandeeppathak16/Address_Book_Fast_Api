@@ -4,6 +4,7 @@ from database import Base
 
 
 class Address_Book(Base):
+    # model for table address_book inside database
     __tablename__ = "Address_Book"
 
     id = Column(Integer, primary_key=True, index=True)
